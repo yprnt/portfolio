@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bodyform">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="dev_front_end.html">Développeur Front-End</a></li>
+                <li><a href="dev_mobile.html">Développeur Mobile</a></li>
+                <li><a href="dev_back_end.html">Développeur Back-end</a></li>
+                <li><a href="dev_full_stack.html">Développeur Full-Stack</a></li>
+                <li><a href="testeur.html">Testeur Informatique</a></li>
+                <li style="float:right"><a class="active" href="formulaire.html">Formulaire</a></li>
+            </ul>
+        </nav>
+        
+<form action="#" class="formulaire">
+  <h2 class="formh2">Formulaire d'inscription</h2>
+  <fieldset>
+      <label for="Pseudo" class="formlabel">Pseudo :</label>
+      <input id="Pseudo" type="text" placeholder="JeanGab89" class="forminput"><br>
+      <br>
+
+      <label for="mot de passe" class="formlabel">Mot de passe :</label>
+      <input id="mot de passe" type="password" placeholder="******" class="forminput"><br>
+      <br>
+
+      <label for="prenom" class="formlabel">Prénom :</label>
+      <input id="prenom" type="text" placeholder="Olivier Serre" class="forminput"><br>
+      <br>
+
+      <label for="email" class="formlabel">Email :</label>
+      <input id="email" type="email" placeholder="email@email.fr" class="forminput"><br>
+      <br>
+
+      <label for="avatar" class="formlabel">Avatar</label>
+      <input id="avatar" type="file" class="forminput"> <br>
+      <br>
+
+      <label for="pays">Pays :</label>
+      <select id="pays" class="formselect">
+        <option value="France" name="pays">France</option>
+        <option value="Espagne" name="pays">Espagne</option>
+        <option value="Italie" name="pays">Italie</option>
+        <option value="Belgique" name="pays">Belgique</option>
+        <option value="Luxembourg" name="pays">Luxembourg</option>
+      </select><br>
+      <br>
+
+      <label for="comments" class="formlabel">Quels sont vos fruits préférés ?</label><br>
+    <label for="orange"><input id="orange" type="checkbox" class="forminput"> Orange</label><br>
+    <label for="fraise"><input id="fraise" type="checkbox" class="forminput"> Fraise</label><br>
+    <label for="poire"><input id="poire" type="checkbox" class="forminput"> Poire</label><br>
+    <br>
+
+    <label for="age" class="formlabel">Age :</label>
+    <input id="age" type="number" placeholder="18" class="forminput"><br>
+    <br>
+
+    <label for="civilité" class="formlabel">Civilité :</label><br>
+    <label for="homme"><input id="homme" type="radio" name="civilite" value="civ" class="forminput">Homme</label>
+    <label for="femme"><input id="femme" type="radio" name="civilite" value="civ" class="forminput">Femme</label><br>
+    <br>
+
+    <label for="ville" class="formlabel">Ville :</label>
+    <input id="ville" type="text" placeholder="Paris" class="forminput"><br>
+    <br>
+
+    <label for="codepostale" class="formlabel">Code Postale :</label>
+    <input id="codepostale" type="text" placeholder="75001" class="forminput"><br>
+    <br>
+
+    <label id="adresse" class="formlabel">Adresse :</label>
+    <textarea id="comments" placeholder="8 rue Jean René"></textarea><br>
+    <br>
+
+    <label id="datenaissance" class="formlabel">Date de Naissance :</label>
+    <input id="datenaissance" type="date" class="forminput"><br>
+    <br>
+
+    <label id="jauge" class="formlabel">Jauge :</label>
+    <input id="jauge" type="range" class="forminput"><br>
+    <br>
+
+    <label id="tel" class="formlabel">Téléphone :</label>
+    <input id="tel" type="tel" placeholder="06 06 06 06 06" class="forminput"><br>
+    <br>
+
+    <label id="recherche" class="formlabel">Recherche :</label>
+    <input id="recherche" type="search" class="forminput"><br>
+    <br>
+
+    <label id="url" class="formlabel">URL :</label>
+    <input id="URL" type="ur" placeholder="https://www.site.fr" class="forminput"><br>
+    <br>
+
+    <label id="couleur" class="formlabel">Couleur :</label>
+    <input id="couleur" type="color"><br>
+
+  </fieldset>
+  <div>
+  <button type="button">Valider</button>
+  <button type="reset">Réinitialiser</button>
+</form>
+
+
+    </body>
+</html>        

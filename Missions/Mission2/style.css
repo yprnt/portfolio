@@ -1,0 +1,411 @@
+.index {
+    background-color: lightblue;
+}
+
+iframe {    
+    color: white;
+    background-color: white;
+}
+
+.accueil {
+    text-align: center;
+}
+
+.sommaire {
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+  
+  .ulsommaire {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 90%;
+    overflow: auto;
+  }
+  
+  .lisommaire a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .lisommaire a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .lisommaire a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.bodypresentation {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.headerpresentation {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.h1presentation {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.ppresentation {
+    font-size: 18px;
+}
+
+.mainpresentation {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h2presentation {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.presentation {
+    margin-bottom: 30px;
+}
+
+.ulpresentation {
+    list-style-type: none;
+}
+
+.lipresentation {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.interet {
+    margin-bottom: 30px;
+}
+
+.footerpresentation {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.footerpresentation a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.avatar {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.bodyytb {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headerytb {
+    background-color: #f38071;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1ytb {
+    font-size: 28px;
+}
+
+.mainytb {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.h2ytb {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.video-description p {
+    font-size: 18px;
+}
+
+.bodycv {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headercv {
+    background-color: #9AC8EB;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1cv {
+    font-size: 28px;
+}
+
+.maincv {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.h2cv {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cv-link, .motivation-link {
+    margin-bottom: 30px;
+}
+
+.acv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9AC8EB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.acv:hover {
+    background-color: #5784BA;
+}
+
+
+.bodysite {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headersite {
+    background-color: #9FCDA8;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1site {
+    font-size: 28px;
+}
+
+.mainsite {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.h2site {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.liensite {
+    margin-bottom: 30px;
+}
+
+.asite {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9FCDA8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.asite:hover {
+    background-color: #7DC2A5;
+}
+
+
+.bodystage {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headerstage {
+    background-color: #E3BDFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1stage {
+    font-size: 28px;
+}
+
+.mainstage {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #E3BDFF;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #E3BDFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #C1ADFF;
+}
+
+.bodymap {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headermap {
+    background-color: #B4BAFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1map {
+    font-size: 28px;
+}
+
+.mainmap {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.iframemap {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.bodymain {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headermain {
+    background-color: #CBB5AC;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h1main {
+    font-size: 28px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.h2site {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
