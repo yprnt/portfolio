@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+}
+
+form {
+    background-color: white;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 150px;
+}
+
+input {
+    border-radius: 5px;
+}
