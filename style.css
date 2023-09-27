@@ -1,0 +1,74 @@
+/* Styles pour le menu horizontal */
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+/* Styles pour les sous-catégories */
+#menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+}
+
+#menu ul ul li {
+    display: block;
+}
+
+#menu ul ul li a {
+    padding: 10px 20px;
+    width: 70px;
+    text-align: center;
+}
+
+#menu ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+
+
+
+/* Styles pour le body / travaux */
+#travaux {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#travaux h1 {
+    color: #e74c3c;
+    font-size: 36px;
+}
+
+#travaux p {
+    color: #333;
+    font-size: 18px;
+}
+
+#travaux img {
+    max-width: 100%;
+    margin-top: 20px;
+}
