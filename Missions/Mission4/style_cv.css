@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.contenue {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 5px solid #3388CC;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.texte {
+    text-align: left;
+    width: 70%; 
+}
+
+.texte h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texte p {
+    font-size: 18px;
+}
+
+.image img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+    float: right;
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav {
+    float: left;
+    text-align: center;
+    width: 15%; 
+    margin-right: 1px; 
+}
+
+article {
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+article h2 {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
