@@ -63,6 +63,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     opacity: 0.25;
     width: 400px;
+    margin-left:300px;
 }
 #portfolio h1 {
     color: #000;
