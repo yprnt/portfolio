@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Article</title>
+</head>
+<body>
+    <div class="art1">
+        <label>Article <input type="text" id="a1"></label><br>
+        <label>Prix Unitaire <input type="number" id="p1"></label><br>
+        <label>Quantité <input type="number" id="q1"></label><br>
+        <label>Remise 5% <input type="number" readonly id="r1"></label><br>
+        <label>Net <input type="number" readonly id="n1"></label><br>
+    </div>
+    <hr>
+    <div class="art2">
+        <label>Article 2 <input type="text" id="a2"></label><br>
+        <label>Prix Unitaire <input type="number" id="p2"></label><br>
+        <label>Quantité <input type="number" id="q2"></label><br>
+        <label>Remise 5% <input type="number" readonly id="r2"></label><br>
+        <label>Net <input type="number" readonly id="n2"></label><br>
+    </div>
+    <label>Total<input type="number" id="t" readonly></label>
+    <button onclick="Calculer()" id="c1">Calculer</button>
+</body>
+</html>
