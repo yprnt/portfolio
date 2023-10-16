@@ -1,3 +1,7 @@
+body {
+    background-image: url(background.jpg);
+}
+
 /* Styles pour le menu horizontal */
 #menu ul {
     list-style-type: none;
@@ -50,7 +54,7 @@
 
 
 /* Styles pour le body / travaux */
-#travaux {
+#portfolio {
     text-align: center;
     margin-top: 100px;
     background-color: #fff;
@@ -58,17 +62,12 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-#travaux h1 {
-    color: #e74c3c;
+#portfolio h1 {
+    color: #000;
     font-size: 36px;
 }
 
-#travaux p {
+#portfolio p {
     color: #333;
     font-size: 18px;
-}
-
-#travaux img {
-    max-width: 100%;
-    margin-top: 20px;
 }
