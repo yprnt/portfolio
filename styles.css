@@ -1,0 +1,292 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("background.jpg");
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    background-color: #424558;
+}
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+ 
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #424558;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+nav li:hover .submenu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+    list-style-type: none;
+    display: block;
+    position: relative;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+    display: inline-block;
+    font-size: 13px;
+    color: #FFF;
+    text-decoration: none;
+    width: 270px;
+}
+
+.menu-html:hover {
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-js:hover {
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-bd:hover {
+    border-top: 5px solid #b826e4;
+    background-color: RGBa(193, 39, 245, 0.15)
+}
+
+.menu-php:hover {
+    border-top: 5px solid #4626e4;
+    background-color: RGBa(78, 39, 245, 0.15)
+}
+
+.menu-mission:hover {
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-certification:hover {
+    border-top: 5px solid #2bedb9;
+    background-color: RGBa(39, 245, 215, 0.15);
+}
+
+nav > ul > li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu .subsubmenu {
+    background-color: rgb(230, 100, 40);
+}
+
+.menu-html .submenu {
+    background-color: rgb(230, 100, 40);
+}
+
+.menu-js .submenu .subsubmenu {
+    background-color: rgb(251, 216, 99);
+}
+
+.menu-js .submenu {
+    background-color: rgb(251, 216, 99);
+}
+
+.menu-bd .submenu .subsubmenu {
+    background-color: rgb(207, 39, 245);
+}
+
+.menu-bd .submenu {
+    background-color: rgb(207, 39, 245);
+}
+
+
+.menu-php .submenu .subsubmenu {
+    background-color: rgb(39, 63, 245)
+}
+
+.menu-php .submenu {
+    background-color: rgb(39, 63, 245)
+}
+
+.menu-mission .submenu .subsubmenu {
+    background-color: rgb(000, 160, 240);
+}
+
+.menu-mission .submenu {
+    background-color: rgb(000, 160, 240);
+}
+
+.menu-certification .submenu .subsubmenu {
+    background-color: rgb(39, 245, 211);
+}
+
+.menu-certification .submenu {
+    background-color: rgb(39, 245, 211);
+}
+
+.submenu li:hover a {
+    color: #EEE;
+    font-weight: bold;
+}
+
+.menu-html .submenu li:hover {
+    background-color: RGB(210, 77, 60);
+}
+
+.menu-js .submenu li:hover {
+    background-color: rgb(200, 165, 75);
+}
+
+.menu-bd .submenu li:hover {
+    background-color: rgb(183, 39, 245);
+}
+
+.menu-php .submenu li:hover {
+    background-color: rgb(56, 39, 245)
+}
+
+.menu-mission .submenu li:hover {
+    background-color: rgb(000, 115, 200);
+}
+
+.menu-certification .submenu li:hover {
+    background-color: rgb(39, 242, 245);
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+nav input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+
+
+nav > ul > li:hover .submenu {
+    display: block;
+}
+
+/* Ajout des sous-menu */
+.submenu .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #424558;
+    padding: 0px;
+}
+
+.submenu .subsubmenu li {
+    list-style-type: none;
+    display: block;
+}
+
+.submenu .subsubmenu li a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #FFF;
+    text-decoration: none;
+    width: 270px;
+    text-align: left;
+}
+
+.submenu li:hover .subsubmenu {
+    display: block;
+}
+
+
+nav > ul > li:hover .submenu {
+    display: block;
+}
+
+@media screen and (max-width: 888px) {
+    .menu-mobile {
+        display: block;
+        color: #FFF;
+        background-color: #424558;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul li,
+    nav ul li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a,
+    nav ul li:hover a {
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav ul li:hover .submenu {
+        display: block;
+        position: static;
+    }
+
+    nav ul li .submenu li:hover .subsubmenu {
+        display: block;
+    }
+    
+    nav li:hover .submenu {
+        display: block;
+        position: static;
+    }
+
+    .submenu li:hover .subsubmenu {
+        display: block;
+        position: static;
+    }
+}
