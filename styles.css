@@ -95,13 +95,13 @@ nav li:hover .submenu{
 }
 
 .menu-bd:hover {
-    border-top: 5px solid #b826e4;
-    background-color: RGBa(193, 39, 245, 0.15)
+    border-top: 5px solid #b12aff;
+    background-color: RGBa(156, 39, 245, 0.15)
 }
 
 .menu-php:hover {
-    border-top: 5px solid #4626e4;
-    background-color: RGBa(78, 39, 245, 0.15)
+    border-top: 5px solid #e426e1;
+    background-color: RGBa(245, 39, 245, 0.15)
 }
 
 .menu-mission:hover {
@@ -135,20 +135,20 @@ nav > ul > li:hover a {
 }
 
 .menu-bd .submenu .subsubmenu {
-    background-color: rgb(207, 39, 245);
+    background-color: rgb(156, 39, 245)
 }
 
 .menu-bd .submenu {
-    background-color: rgb(207, 39, 245);
+    background-color: rgb(156, 39, 245)
 }
 
 
 .menu-php .submenu .subsubmenu {
-    background-color: rgb(39, 63, 245)
+    background-color: rgb(238, 39, 245)
 }
 
 .menu-php .submenu {
-    background-color: rgb(39, 63, 245)
+    background-color: rgb(238, 39, 245)
 }
 
 .menu-mission .submenu .subsubmenu {
@@ -181,11 +181,11 @@ nav > ul > li:hover a {
 }
 
 .menu-bd .submenu li:hover {
-    background-color: rgb(183, 39, 245);
+    background-color: rgb(121, 29, 191);
 }
 
 .menu-php .submenu li:hover {
-    background-color: rgb(56, 39, 245)
+    background-color: rgb(181, 29, 186)
 }
 
 .menu-mission .submenu li:hover {
@@ -193,7 +193,7 @@ nav > ul > li:hover a {
 }
 
 .menu-certification .submenu li:hover {
-    background-color: rgb(39, 242, 245);
+    background-color: rgb(28, 182, 184);
 }
 
 .menu-mobile {
