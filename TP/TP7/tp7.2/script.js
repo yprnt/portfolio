@@ -1,28 +1,23 @@
 function Calculer() {
-    //Article 1 - Remise 5%
-    var quantite = document.getElementById("q1").value;
-    var prix = document.getElementById("p1").value;
+    var a = document.getElementById("p1").value;
+    var b = document.getElementById("q1").value;
+    var c = Number(a) * Number(b);
+    r1.value = c;
 
-    var remise = (Number(quantite) * Number(prix)) * 0.05;
-    document.getElementById("r1").value = remise;
+    var d = document.getElementById("p2").value;
+    var e = document.getElementById("q2").value;
+    var f = Number(d) * Number(e);
+    r2.value = f;
 
-    //Article 2 - Remise 5%
-    var quantite2 = document.getElementById("q2").value;
-    var prix2 = document.getElementById("p2").value;
+    var g = document.getElementById("p3").value;
+    var h = document.getElementById("q3").value;
+    var i = Number(g) * Number(h);
+    r3.value = i;
 
-    var remise2 = (Number(quantite2) * Number(prix2)) * 0.05;
-    document.getElementById("r2").value = remise2;
+    var j = Number(c) + Number(f) + Number(i);
+    r4.value = j;
+}
 
-    // Article 1 - Net
-    var net = (Number(quantite) * Number(prix)) - Number(remise);
-    document.getElementById("n1").value = net;
-
-    //Article 2 - Net
-    var net2 = (Number(quantite2) * Number(prix2)) - Number(remise2);
-    document.getElementById("n2").value = net2;
-
-
-    //Total 
-    var total = Number(net) + Number(net2);
-    document.getElementById("t").value = total;
+function Reinitialiser() {
+    window.location.reload();
 }
