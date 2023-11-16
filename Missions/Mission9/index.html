@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facture</title>
+</head>
+<body onload="charger()">
+    <div class="page">
+        <header>
+            <div class="entreprise-info">
+                <img src="logo.png" alt="Logo de l'entreprise">
+                <h2>Nom de l'Entreprise</h2>
+                <p>Adresse de l'entreprise</p>
+                <p>Numéro de téléphone: 06 07 08 09 10</p>
+                <p>Email: info@entreprise.com</p>
+            </div>
+            <div class="facture-info">
+                <h1>Facture</h1>
+                <p>Date: <span id="date_facture">[Date]</span></p>
+                <p>Numéro de Facture: <span id="numero_facture">[Numéro]</span></p>
+            </div>
+        </header>
+
+        <section id="facture-details">
+            <div id="destinataire">
+                <h2>Destinataire</h2>
+                <p>Nom</p>
+                <p>Nom de l'entreprise</p>
+                <p>Adresse postale</p>
+                <p>Téléphone : 06 07 08 09 10</p>
+                <p>Email : info@entreprise.com</p>
+            </div>
+            <div id="envoie">
+                <h2>Envoyez à</h2>
+                <p>Nom</p>
+                <p>Nom de l'entreprise</p>
+                <p>Adresse postale</p>
+                <p>Téléphone : 06 07 08 09 10</p>
+                <p>Email : info@entreprise.com</p>
+            </div>
+        </section>
+
+        <table id="facture-tableau">
+            <thead>
+                <tr>
+                    <th>Nom de l'article</th>
+                    <th>Quantité</th>
+                    <th>Prix unitaire</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr id="modeleLigne" class="tr">
+                    <td><input type="text" class="nom" value="Article 1"></td>
+                    <td><input type="number" class="quantite" value="2"></td>
+                    <td><input type="number" class="prix" value="10.00"></td>
+                    <td><span class="total">20.00</span></td>
+                </tr>
+                <tr id="lastLigne">
+                    <td><input type="text" class="nom" value="Article 2"></td>
+                    <td><input type="number" class="quantite" value="1"></td>
+                    <td><input type="number" class="prix" value="15.00"></td>
+                    <td><span class="total">15.00</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="totals">
+            <p>Sous-total : <span id="sous_total">0.0</span></p>
+            <p>Remise : <input type="text" value="0.0" id="remise"></p>
+            <p>Sous-total moins remise : <span id="sous_total_remise">0.0</span></p>
+            <p>Taux d'imposition : <input type="text" value="10" id="taxe">%</p>
+            <p>Taxe totale : <span id="taxe_total">0.0</span></p>
+            <p>Expédition manutention : <input type="text" value="0.0" id="expedition"></p>
+            <h3>Solde total : <span id="solde_total">0.0</span></h3>
+        </div>
+
+        <div id="boutons">
+            <button onclick="Calculer()">Calculer</button>
+            <button onclick="ajouterLigne()">Ajouter une ligne</button>
+            <button onclick="remplir()">Remplir automatiquement</button>
+            <button type="reset">Annuler</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
