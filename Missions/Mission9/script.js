@@ -50,7 +50,7 @@ function Calculer() {
     var sous_total = total;
     document.getElementById("sous_total").innerText = sous_total.toFixed(2) + " €";
 
-    var sous_total_remise = (Number(sous_total) - Number(remise));
+    var sous_total_remise = Number(sous_total)- (Number(sous_total) * (Number(remise)/100));
     document.getElementById("sous_total_remise").innerText = sous_total_remise.toFixed(2) + " €";
 
     var taxe_total = (Number(sous_total) * (Number(imposition) / 100));
