@@ -1,0 +1,29 @@
+.rectangle {
+    background-color: rgb(231, 231, 231);
+    width: 25%;
+    height: 360px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: lightgray;
+}
+
+.rond {
+    border-radius: 50%;
+    border: 3px solid #000;
+    width: 160px;
+    height: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+p, a {
+    line-height: 3px;
+}
