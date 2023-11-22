@@ -292,8 +292,8 @@ nav > ul > li:hover .submenu {
 
     .titre {
         font-size: 11px;
-        width: auto;
-        margin-top: 200px;
+        width: 90%;
+        margin-top: 300px;
     }
 
     .titre h1 {
