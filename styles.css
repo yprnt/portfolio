@@ -291,9 +291,13 @@ nav > ul > li:hover .submenu {
     }
 
     .titre {
-        font-size: 10px;
-        width: 90%;
-        margin-top: 250px;
+        font-size: 11px;
+        width: auto;
+        margin-top: 200px;
+    }
+
+    .titre h1 {
+        font-size: 14px;
     }
 }
 
@@ -303,7 +307,7 @@ nav > ul > li:hover .submenu {
     text-align: center;
     padding: 20px;
     color: #000; 
-    font-size: 13px; 
+    font-size: 24px; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -313,7 +317,7 @@ nav > ul > li:hover .submenu {
 }
 
 .titre h1 {
-    font-size: 18px; 
+    font-size: 36px; 
     margin: 0; 
 }
 
