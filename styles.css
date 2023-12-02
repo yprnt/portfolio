@@ -105,6 +105,11 @@ nav li:hover .submenu{
     background-color: RGBa(156, 39, 245, 0.15)
 }
 
+.menu-conception:hover {
+    border-top: 5px solid #6a2aff;
+    background-color: RGBa(106, 42, 255, 0.15)
+}
+
 .menu-php:hover {
     border-top: 5px solid #e426e1;
     background-color: RGBa(245, 39, 245, 0.15)
@@ -148,6 +153,14 @@ nav > ul > li:hover a {
     background-color: rgb(156, 39, 245)
 }
 
+.menu-conception .submenu .subsubmenu {
+    background-color: rgb(106, 42, 255);
+}
+
+.menu-conception .submenu {
+    background-color: rgb(106, 42, 255);
+}
+
 
 .menu-php .submenu .subsubmenu {
     background-color: rgb(238, 39, 245)
@@ -188,6 +201,10 @@ nav > ul > li:hover a {
 
 .menu-bd .submenu li:hover {
     background-color: rgb(121, 29, 191);
+}
+
+.menu-conception .submenu li:hover {
+    background-color: rgb(90, 35, 219);
 }
 
 .menu-php .submenu li:hover {
